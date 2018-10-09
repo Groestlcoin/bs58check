@@ -6,19 +6,18 @@
     "base",
     "base58",
     "base58check",
-    "bitcoin",
+    "groestlcoin",
     "bs58",
     "check",
     "checksum",
     "decode",
     "decoding",
     "encode",
-    "encoding",
-    "litecoin"
+    "encoding"
   ],
-  "homepage": "https://github.com/bitcoinjs/bs58check",
+  "homepage": "https://github.com/groestlcoin/bs58check",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bs58check/issues"
+    "url": "https://github.com/groestlcoin/bs58check/issues"
   },
   "license": "MIT",
   "author": "Daniel Cousens",
@@ -29,7 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bs58check.git"
+    "url": "https://github.com/groestlcoin/bs58check.git"
   },
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -41,6 +40,7 @@
   "dependencies": {
     "bs58": "^4.0.0",
     "create-hash": "^1.1.0",
+    "groestl-hash-js": "https://github.com/Groestlcoin/groestl-hash-js.git",
     "safe-buffer": "^5.1.2"
   },
   "devDependencies": {

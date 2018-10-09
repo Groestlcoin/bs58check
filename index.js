@@ -2,11 +2,11 @@
 
 var createHash = require('create-hash')
 var bs58checkBase = require('./base')
+var groestlhash = require('groestl-hash-js')
 
 // SHA256(SHA256(buffer))
-function sha256x2 (buffer) {
-  var tmp = createHash('sha256').update(buffer).digest()
-  return createHash('sha256').update(tmp).digest()
+function groestl (buffer) {
+  return Buffer.from(Module.ccall('GroestlCoinHash', 'string', ['string'], [buffer.toString("hex")]), "hex");
 }
 
-module.exports = bs58checkBase(sha256x2)
+module.exports = bs58checkBase(groestl)
