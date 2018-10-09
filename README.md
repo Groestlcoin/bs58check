@@ -8,13 +8,13 @@ A straight forward implementation of base58check extending upon bs58.
 ```javascript
 var bs58check = require('bs58check')
 
-var decoded = bs58check.decode('5J6H6xazp3QKVVeud9841M1AdHpyEZddqGmXTdgFj6VKhD6C4xh')
+var decoded = bs58check.decode('5KNSiE1em23byTDTToLyd6aBbqKdSZsvG4iQkMwYuxvc7MeHSke')
 
 console.log(decoded)
-// => <Buffer 80 ed db dc 11 68 f1 da ea db d3 e4 4c 1e 3f 8f 5a 28 4c 20 29 f7 8a d2 6a f9 85 83 a4 99 de 5b 19>
+// => <Buffer 80 cc b6 a4 01 f2 5a 90 59 8e 85 16 3f fd 1b 29 67 2f a8 59 1b da ef 18 a3 4f f1 e8 eb 8b 75 98 de>
 
 console.log(bs58check.encode(decoded))
-// => 5J6H6xazp3QKVVeud9841M1AdHpyEZddqGmXTdgFj6VKhD6C4xh
+// => 5KNSiE1em23byTDTToLyd6aBbqKdSZsvG4iQkMwYuxvc7MeHSke
 ```
 
 
