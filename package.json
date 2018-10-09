@@ -1,5 +1,5 @@
 {
-  "name": "bs58check",
+  "name": "bs58check-grs",
   "version": "2.1.2",
   "description": "A straightforward implementation of base58-check encoding",
   "keywords": [
