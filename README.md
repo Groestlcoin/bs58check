@@ -1,6 +1,6 @@
 # bs58grscheck
 
-A straight forward implementation of base58check extending upon bs58.
+A straight forward implementation of base58grscheck extending upon bs58.
 
 
 ## Example
