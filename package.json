@@ -1,11 +1,11 @@
 {
-  "name": "bs58check-grs",
+  "name": "bs58grscheck",
   "version": "2.1.2",
   "description": "A straightforward implementation of base58-check encoding",
   "keywords": [
     "base",
-    "base58",
-    "base58check",
+    "base58grs",
+    "base58grscheck",
     "groestlcoin",
     "bs58",
     "check",
@@ -15,9 +15,9 @@
     "encode",
     "encoding"
   ],
-  "homepage": "https://github.com/groestlcoin/bs58check",
+  "homepage": "https://github.com/groestlcoin/bs58grscheck",
   "bugs": {
-    "url": "https://github.com/groestlcoin/bs58check/issues"
+    "url": "https://github.com/groestlcoin/bs58grscheck/issues"
   },
   "license": "MIT",
   "author": "Daniel Cousens",
@@ -28,7 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/groestlcoin/bs58check.git"
+    "url": "https://github.com/groestlcoin/bs58grscheck.git"
   },
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
