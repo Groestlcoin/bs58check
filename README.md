@@ -1,4 +1,4 @@
-# bs58check
+# bs58check-grs
 
 A straight forward implementation of base58check extending upon bs58.
 
@@ -6,7 +6,7 @@ A straight forward implementation of base58check extending upon bs58.
 ## Example
 
 ```javascript
-var bs58check = require('bs58check')
+var bs58check = require('bs58check-grs')
 
 var decoded = bs58check.decode('5KNSiE1em23byTDTToLyd6aBbqKdSZsvG4iQkMwYuxvc7MeHSke')
 
