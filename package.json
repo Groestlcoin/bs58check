@@ -40,7 +40,7 @@
   "dependencies": {
     "bs58": "^4.0.0",
     "create-hash": "^1.1.0",
-    "groestl-hash-js": "https://github.com/Groestlcoin/groestl-hash-js.git",
+    "groestl-hash-js": "^1.0.0",
     "safe-buffer": "^5.1.2"
   },
   "devDependencies": {
